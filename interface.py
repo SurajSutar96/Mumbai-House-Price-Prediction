@@ -30,4 +30,4 @@ def predict():
     predict_price=obj.prediction()
     return jsonify({"Result":f"Predicted price will be {predict_price}"})
 if __name__=="__main__":
-    app.run(host='0.0.0.0',port=config.PORT,debug=True)
+    app.run(host='0.0.0.0',port='5555',debug=True)
